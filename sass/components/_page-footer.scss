@@ -4,7 +4,7 @@
     padding-bottom: 60px;
 }
 
-.footer-title {
+.footer__title {
     color: $color-brand-secondary;
     padding-bottom: 20px;
     font-size: 14px;
@@ -14,15 +14,15 @@
     text-transform: uppercase;
 }
 
-.footer-main-container {
+.footer__container {
     display: flex;
 }
 
-.footer-logo-container {
+.footer__logo {
     margin-bottom: 28px;
 }
 
-.footer-logo-web {
+.footer__logo--web {
     color: $color-brand-primary;
     font-family: Raleway;
     font-size: 26px;
@@ -30,7 +30,7 @@
     letter-spacing: 0.03em;
 }
 
-.footer-logo-studio {
+.footer__logo--studio {
     color: $color-brand-secondary;
     font-family: Raleway;
     font-size: 26px;
@@ -38,11 +38,11 @@
     letter-spacing: 0.03em;
 }
 
-.footer-list {
+.footer__list {
     margin-bottom: 12px;
 }
 
-.footer-list-address {
+.footer__list--address {
     color: $color-brand-secondary;
     font-size: 14px;
     line-height: 1.714;
@@ -52,7 +52,7 @@
     text-decoration: none;
 }
 
-.footer-list-contact {
+.footer__list--contact {
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.714;
@@ -62,23 +62,23 @@
     text-decoration: none;
 }
 
-.footer-social-container {
+.footer__social {
     margin-left: 70px;
     margin-right: 93px;
 }
 
-.footer-social-list {
+.footer__social--list {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.footer-social-items {
+.footer__social--items {
     width: 44px;
     height: 44px;
 }
 
-.footer-social-link {
+.footer__social--link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,11 +96,11 @@
         }
 }
 
-.footer-social-icon {
+.footer__social--icon {
     fill: $color-brand-secondary;
 }
 
-.footer-input {
+.footer__input {
     width: 358px;
     height: 50px;
     padding-left: 16px;
@@ -111,7 +111,7 @@
     border-radius: 4px;
 }
 
-.footer-button {
+.footer__button {
     position: absolute;
     width: 200px;
     height: 50px;
@@ -127,7 +127,7 @@
     text-align: start;
 }
 
-.footer-button-icon {
+.footer__button--icon {
     position: absolute;
     width: 24px;
     height: 24px;
@@ -135,7 +135,7 @@
     fill: $color-brand-secondary;
 }
 
-.footer-button-text {
+.footer__button--text {
     padding-left: 28px;
     padding-right: 10px;
 }

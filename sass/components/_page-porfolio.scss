@@ -1,6 +1,8 @@
 /* Кнопки фільтру в портфоліо */
 
-.porfolio-filter {
+.portfolio {}
+
+.porfolio__filter {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +10,7 @@
     margin-bottom: 50px;
 }
 
-.porfolio-button {
+.porfolio__button {
     color: $color-text-primary;
     background-color: #F5F4FA;
     font-size: 16px;
@@ -35,13 +37,13 @@
 
 /* Картки портфоліо */
 
-.portfolio-list {
+.portfolio__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.portfolio-item {
+.portfolio__item {
     border: 1px solid #EEEEEE;
     width: 370px;
     height: 404px;
@@ -54,13 +56,13 @@
         }
 }
 
-.portfolio-link {
+.portfolio__link {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.portfolio-title {
+.portfolio__title {
     color: $color-text-primary;
     font-size: 18px;
     line-height: 2;
@@ -68,7 +70,7 @@
     margin: 0;
 }
 
-.portfolio-text {
+.portfolio__text {
     color: $color-text-secondary;
     font-size: 16px;
     line-height: 1.875;
@@ -76,16 +78,16 @@
     letter-spacing: 0.03em;
 }
 
-.portfolio-text-container {
+.portfolio__text--container {
     padding: 20px 24px;
 }
 
-.portfolio-overlay {
+.portfolio__overlay {
     position: relative;
     overflow: hidden;
 }
 
-.portfolio-overlay-action {
+.portfolio__overlay--action {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -95,16 +97,16 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .portfolio-link:hover & {
+    .portfolio__link:hover & {
             transform: translateY(0);
         }
     
-    .portfolio-link:focus & {
+    .portfolio__link:focus & {
             transform: translateY(0);
         }
 }
 
-.portfolio-overlay-text {
+.portfolio__overlay--text {
     color: $color-brand-secondary;
     font-size: 18px;
     line-height: 1.555;

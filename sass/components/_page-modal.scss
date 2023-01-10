@@ -26,7 +26,7 @@
     border-radius: 4px;
 }
 
-.modal-title {
+.modal__title {
     font-size: 20px;
     line-height: 1.172;
     font-weight: 700;
@@ -35,7 +35,7 @@
     text-align: center;
 }
 
-.modal-text {
+.modal__text {
     font-size: 12px;
     line-height: 1.171;
     font-weight: 400;
@@ -44,13 +44,13 @@
     padding-bottom: 4px;
 }
 
-.modal-comment {
+.modal__comment {
     display: flex;
     flex-direction: column;
     padding: 0 40px 20px 40px;
 }
 
-.modal-comment-field {
+.modal__comment--field {
     font-size: 12px;
     line-height: 1.171;
     font-weight: 400;
@@ -62,13 +62,13 @@
     padding-top: 12px;
 }
 
-.modal-policy {
+.modal__policy {
     display: inline-block;
     position: relative;
     padding: 0 40px 20px 40px;
 }
 
-.modal-policy-text {
+.modal__policy--text {
     font-size: 14px;
     line-height: 1.714;
     font-weight: 400;
@@ -77,7 +77,7 @@
     color: $color-text-secondary;
 }
 
-.modal-policy-link {
+.modal__policy--link {
     font-size: 14px;
     line-height: 1.714;
     font-weight: 400;
@@ -86,7 +86,7 @@
     text-decoration: underline;
 }
 
-.modal-form-field {
+.modal__formfield {
     display: flex;
     flex-direction: column;
     padding: 0 40px 10px 40px;
@@ -98,11 +98,11 @@
     }
 }
 
-.input-field {
+.input {
     position: relative;
 }
 
-.input-field-form {
+.input__field {
     Width: 448px;
     Height: 40px;
     padding: 0 0 0 42px;
@@ -117,7 +117,7 @@
     }
 }
 
-.input-field-icon {
+.input__icon {
     position: absolute;
     height: 18px;
     top: 11px;
@@ -128,7 +128,7 @@
     appearance: none;
 }
 
-.checkbox-icon {
+.checkbox__icon {
     display: inline-block;
     position: absolute;
     transform: translate(-150%, 28%);
@@ -144,7 +144,7 @@
         }
 }
 
-.button-modal-open {
+.button-open {
     margin: auto;
     display: block;
     color: $color-brand-secondary;
@@ -157,7 +157,7 @@
     cursor: pointer;
 }
 
-.button-modal-close {
+.button-close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -177,7 +177,7 @@
         }
 }
 
-.button-close-icon {
+.button-close__icon {
     width: 11px;
     height: 11px;
 }

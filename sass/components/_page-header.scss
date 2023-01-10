@@ -3,14 +3,14 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.header-container {
+.header__container {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     height: 80px;
 }
 
-.header-logo {
+.header__logo {
     display: flex;
     padding-top: 24px;
     padding-bottom: 25px;
@@ -18,7 +18,7 @@
     align-items: center;
 }
 
-.header-logo-web {
+.header__logo--web {
     color: $color-brand-primary;
     font-size: 26px;
     line-height: 1.173;
@@ -26,7 +26,7 @@
     letter-spacing: 0.03em;
 }
 
-.header-logo-studio {
+.header__logo--studio {
     color: #000000;
     font-size: 26px;
     line-height: 1.173;
@@ -41,14 +41,14 @@
     padding-bottom: 32px;
 }
 
-.nav-list {
+.nav__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
 
-.nav-link {
+.nav__link {
     color: $color-text-primary;
     font-size: 14px;
     line-height: 1.172;
@@ -66,7 +66,7 @@
         }
 }
 
-.nav-link-bar {
+.nav__link--bar {
     position: relative;
 
     
@@ -83,7 +83,7 @@
         }
 }
 
-.contact-list {
+.contact__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,7 +92,7 @@
     height: 80px;
 }
 
-.contact-link {
+.contact__link {
     color: $color-text-secondary;
     font-size: 14px;
     line-height: 1.172;
@@ -113,7 +113,7 @@
         }
 }
 
-.contact-icon {
+.contact__icon {
     fill: currentColor;
     cursor: pointer;
     margin-right: 10px;

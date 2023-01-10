@@ -13,13 +13,13 @@
     padding-top: 94px;
 }
 
-.advantages-container {
+.advantages__container {
     display: flex;
     justify-content: space-between;
     gap: 30px;
 }
 
-.advantages-icon {
+.advantages__icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +29,7 @@
     margin-bottom: 30px;
 }
 
-.advantages-title {
+.advantages__title {
     color: $color-text-primary;
     font-size: 14px;
     line-height: 1.172;
@@ -38,7 +38,7 @@
     margin-bottom: 10px;
 }
 
-.advantages-text {
+.advantages__text {
     color: $color-text-secondary;
     font-size: 14px;
     line-height: 1.714;
@@ -55,13 +55,13 @@
     gap: 30px;
 }
 
-.product-item {
+.product__item {
     position: relative;
     width: 370px;
     height: 294px;
 }
 
-.product-bar {
+.product__bar {
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -71,7 +71,7 @@
     padding-top: 27px;
 }
 
-.product-text {
+.product__text {
     color: $color-brand-secondary;
     font-size: 14px;
     line-height: 1.172;
@@ -87,14 +87,14 @@
     padding: 94px 0;
 }
 
-.team-container {
+.team__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
 }
 
-.team-card {
+.team__card {
     border: 0 solid rgba(255, 255, 255, 1);
     background-color: $color-brand-secondary;
     text-align: center;
@@ -102,12 +102,12 @@
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-card-container {
+.team__card--container {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team-card-title {
+.team__card--title {
     font-size: 16px;
     line-height: 1.171;
     font-weight: 500;
@@ -115,7 +115,7 @@
     margin-bottom: 10px;
 }
 
-.team-card-text {
+.team__card--text {
     color: $color-text-secondary;
     font-size: 16px;
     line-height: 1.171;
@@ -123,7 +123,7 @@
     letter-spacing: 0.03em;
 }
 
-.team-social {
+.team__social {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,12 +131,12 @@
     padding-top: 16px;
 }
 
-.team-social-item {
+.team__social--item {
     width: 44px;
     height: 44px;
 }
 
-.team-social-link {
+.team__social--link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,7 +156,7 @@
         }
 }
 
-.team-social-icon {
+.team__social--icon {
     fill: currentColor;
 }
 
